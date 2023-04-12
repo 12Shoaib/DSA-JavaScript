@@ -6,4 +6,4 @@ const isPangram = (arr) => {
     return isPangram(arr.slice(1,-1))
 }
 
-console.log(isPangram([1,21,1]))
+console.log(isPangram([-1,2,1]))
